@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Run2Compit</string>
+
+    <string name="float0">00.00</string>
+    <string name="int0">00</string>
+    <string name="time0">00:00</string>
+
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="secs">Seconds</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="gpsAlert">Your GPS seems to be disabled, do you want to enable it?</string>
+
+    <string name="unit">Unit</string>
+    <string name="height">My Height</string>
+    <string name="cm">c.m.</string>
+    <string name="Inch" translatable="false">Inches</string>
+    <string name="mytarget">Target</string>
+    <string name="distance">Distance</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="optional">Optional - Join or form teams (Coming Soon)</string>
+    <string name="sname">Screen Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email*</string>
+    <string name="gps_use">Use High Accuracy when GPS is available</string>
+    <string name="stop_inactive">Stop after 3 inactive minutes</string>
+    <string name="gps_msg">Alert me for GPS when using High accuracy mode </string>
+    <string name="email_msg">*Optional (used only to password reset)</string>
+    <string name="backup_msg">Backup my runs</string>
+    <string name="na">NA</string>
+    <string name="kg">K.G.</string>
+    <string name="pound">Pounds</string>
+    <string name="weight">Weight</string>
+
+    <string name="km">K.M.</string>
+    <string name="steps">Steps</string>
+    <string name="mile">Miles</string>
+    <string name="remaining">Remaining</string>
+    <string name="calories">Calories</string>
+    <string name="timer">Timer</string>
+    <string name="start">Start</string>
+    <string name="abort">Abort - Press n Hold</string>
+    <string name="complete">Complete</string>
+    <string name="myrun">My Run</string>
+
+
+    <string name="default_mins">35 </string>
+    <string name="default_km">4.000 </string>
+    <string name="default_Miles">3</string>
+    <string name="default_steps">3000 </string>
+    <string name="default_height">66 </string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="run_msg">Choose a target</string>
+    <string name="comp_msg">Choose a run to compete with</string>
+    <string name="comp0">Target</string>
+    <string name="comp1">Average</string>
+    <string name="comp2">Fastest</string>
+    <string name="comp3">Longest</string>
+    <string name="comp4">More</string>
+
+    <string name="target">Target</string>
+    <string name="self">Self</string>
+    <string name="opponent">Opponent</string>
+
+    <string name="level_msg">Choose a training level</string>
+    <string name="level1">Level 01</string>
+    <string name="level2">Level 02</string>
+    <string name="level3">Level 03</string>
+    <string name="level4">Level 04</string>
+    <string name="level5">Level 05</string>
+    <string name="level6">Level 06</string>
+    <string name="level7">Level 07</string>
+    <string name="level8">Level 08</string>
+    <string name="level9">Level 09</string>
+    <string name="level10">Level 10</string>
+    <string name="level11">Level 11</string>
+    <string name="act_ready">Ready</string>
+
+    <string name="description">Description will show the distance travelled with steps to be completed in the duration</string>
+    <string name="noruns">Your previous runs will appear here. Please complete you first run.</string>
+    <string name="opp_description">Cover xx1 with xx2 steps in xx3 </string>
+    <string name="history_description">Covered xx1 with xx2 steps in xx3 on xx4 and burnt xx5 calories</string>
+
+    <string name="run">Run</string>
+    <string name="comp">Compete</string>
+    <string name="train">Train 5K</string>
+
+    <string name="cc">Tap to Change</string>
+    <string name="title_activity_history">Run History</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="height_dialog_title">Set your Height</string>
+
+    <string name="warmup">WARM UP</string>
+    <string name="walk">WALK</string>
+    <string name="actRun">RUN</string>
+    <string name="longSlowRun">LONG SLOW RUN</string>
+    <string name="coolDown">COOL DOWN</string>
+    <string name="finished">FINISHED</string>
+
+
+    <string-array
+        name="TrainingLevelDescriptions">
+        <item>5 Mins warm up, alternate 1 min run and 1:30 min walk for 8 times </item>
+        <item>5 Mins warm up, alternate 1:30 min run and 2 min walk for 8 times </item>
+        <item>Long distance slow run for 25 Mins </item>
+        <item>5 Mins warm up, alternate 1:30 min run and 1:30 min walk for 7 times </item>
+
+        <item>5 Mins warm up, alternate 2 min run and 2 min walk for 5 times </item>
+        <item>Long distance slow run for 25 Mins</item>
+        <item>5 Mins warm up, alternate 2 min run and 1:30 min walk for 6 times </item>
+        <item>5 Mins warm up, alternate 1-2-3 min runs with a 1 min walk for 3 times </item>
+    </string-array>
+
+    <string name="title_activity_about">About</string>
+
+    <string name="about1">Run2Compit helps for runners and walkers to set, measure and track the goals. It can be used in three modes\n
+    1. Free Run\n
+    2. Compete with previous runs\n
+    3. Guided training mode\nIt can work with GPS (High Accuracy) or without GPS (it can auto switch when you enter indoor or where GPS signal is unavailable) </string>
+
+    <string name="about2">Privacy: \nThe version of the App does not store any of data outside your device. Please revisit the privacy policy after the new features have been added. This also comes with the risk of losing the data in case of device issues as there is no external backup</string>
+    <string name="about3">Run2Compit is from CABBT Systems Pvt. Ltd.\nFor any queries, questions, comments, feedback and support please write to \n\n
+    support@cabbt.com \n
+    http://www.cabbt.com/ </string>
+    <string name="about4">True Nobility is not about being better than someone else, it’s about being better than you used to be. \n-Wayne W. Dyer \n\n
+    AND so is fitness…</string>
+
+    <string name="setna">Please complete the run to access settings</string>
+    <string name="datas">Data Saved</string>
+    <string name="title_activity_graph">Daily Graph</string>
+
+
+    <string name="speak_brisk_walk">Start with Brisk walk</string>
+    <string name="speak_run">Start Running</string>
+    <string name="speak_walk">Start Walking</string>
+    <string name="speak_cool_down">Cool down, walk at normal pace</string>
+    <string name="speak_half_way">You have passed half way mark</string>
+    <string name="speak_goal">Congratulations, you reached your goal</string>
+    <string name="speak_won">Congratulations you have won the race</string>
+    <string name="speak_lost">Try again, Better luck next time</string>
+
+    <string name="tracking">Tracking my fitness with Run2Compit</string>
+    <string name="share">Share</string>
+    <string name="daily_sum">Daily Summary</string>
+    <string name="set_target">Set \n Target</string>
+    <string name="target_set">Selected target is set</string>
+
+    <string-array
+        name="email">
+        <item>support@cabbt.com</item>
+    </string-array>
+    <string name="gp">https://google.com/+Cabbtsys</string>
+    <string name="fb">https://www.facebook.com/cabbtsys</string>
+    <string name="yt">https://www.youtube.com/channel/UCS4BMiY2QBNX-q3aPlhK5dw</string>
+    <string name="web">http://www.cabbt.com/</string>
+    <string name="tw">https://twitter.com/cabbtsys</string>
+    <string name="noapp">No App foud for the action</string>
+    <string name="gpsreason">Location service is required to accurately calculate the distance travelled\n
+        Please grant the permission</string>
+
+</resources>

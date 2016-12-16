@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="6dp"
+    android:background="@drawable/curved_background" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:text="@string/level_msg"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="6dp"
+        android:id="@+id/horizontalScrollView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:orientation="horizontal"
+            android:background="@drawable/cardrect">
+
+            <Button
+                android:id="@+id/b_train_level1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level1"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"/>
+            <Button
+                android:id="@+id/b_train_level2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level2"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <Button
+                android:id="@+id/b_train_level3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level3"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <Button
+                android:id="@+id/b_train_level4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level4"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <Button
+                android:id="@+id/b_train_level5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level5"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <Button
+                android:id="@+id/b_train_level6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level6"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <Button
+                android:id="@+id/b_train_level7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level7"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+            <Button
+                android:id="@+id/b_train_level8"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_button_unselected"
+                android:textColor="#ffffff"
+                android:text="@string/level8"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/t_train_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:text="@string/description"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:paddingBottom="10dp" >
+        <TextView
+            android:id="@+id/t_train_current_act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/act_ready"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:elevation="6dp"
+            android:background="@drawable/oval"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/t_train_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/time0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/target"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/t_train_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/int0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/calories"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="2dp" >
+
+
+        <TextView
+            android:id="@+id/t_train_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/time0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/timer"/>
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:elevation="6dp"
+        android:background="@drawable/oval"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/t_train_target_rem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+
+            android:text="@string/time0"/>
+
+
+        <TextView
+            android:id="@+id/l_train_time_rem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/remaining"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="2dp" >
+
+        <TextView
+            android:id="@+id/t_train_distance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/float0"/>
+
+        <TextView
+            android:id="@+id/t_train_steps"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/int0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp" >
+
+        <TextView
+            android:id="@+id/l_train_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/km"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/steps"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" >
+    <Button
+        android:id="@+id/b_train_start"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/start"
+        android:background="@drawable/buttonrect"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"/>
+    </LinearLayout>
+</LinearLayout>
